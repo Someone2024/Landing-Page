@@ -1,28 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-</head>
-<body>
-    <header class="head">
-        <nav class="nav">
-            <h1 class="Logo">Header Logo</h1>
-            <ul class="items">
-                <li class="item">header link one</li>
-                <li class="item">header link two</li>
-                <li class="item">header link three</li>
-            </ul>
-        </nav>
-        <div class="nav-content">
-            <h1 class="title">This WebSite is Awesome</h1>
-            <p class="text">This website has some subtext that goes here under the main title. </p>
-            <p class="text">It's a maller font and the color lower contrast</p>
-            <button class="header-btn">Sign up</button>
-            <img class="dummy-img" src="" alt="">
+    <link rel="stylesheet" href="styles/Main.css" />
+    <link rel="stylesheet" href="styles/Header.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo">Header Logo</p>
+        <ul class="items">
+          <li class="item">header link one</li>
+          <li class="item">header link two</li>
+          <li class="item">header link three</li>
+        </ul>
+      </nav>
+      <div class="nav-content">
+        <div class="content">
+          <h1 class="title">This website is</h1>
+          <h1 class="title">awesome</h1>
+          <p class="text">
+            This website has some subtext that goes here under 
+          </p>
+          <p class="text">the main title. It's a maller font and the color is lower contrast</p>
+          <button class="header-btn">Sign up</button>
         </div>
+        <div class="img">
+          <img class="dummy-img" src="./images/image.PNG" alt="" />
+        </div>
+      </div>
     </header>
-</body>
+
+    <main>
+        <h1 class="info">Some random information.</h1>
+        <div class="boxes">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+        <div class="quote-section">
+            <p class="quote">This is an inspiring quote, or just a testimonial from a customer.</p>
+            <p class="quote">Maybe it's just fulling up space, or maybe</p>
+            <p class="quote">people will actually read it. Who knows? All i know</p>
+            <p class="quote">is that it looks nice.</p>
+            <p class="auth">-Thor, God of Thunder</p>
+        </div>
+
+        <div class="call">
+          <div class="call-content">
+            <h1 class="call-title">Call to action! It's time!</h1>
+            <p class="text call-text">Sign up for our product be cliking that button right over there!</p>
+          </div>
+          
+          <div class="btn">
+            <button class="signup">Sign up</button>
+          </div>
+        </div>
+    </main>
+    
+    <footer class="footer">
+      <p>Copyright © Someone 2023</p>
+    </footer>
+  </body>
 </html>
